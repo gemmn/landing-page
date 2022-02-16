@@ -1,4 +1,4 @@
 # landing-page
-First website from scratch.
+My first website built from scratch.
 
-This should be a long process and I hope it is worth it.
+This should be a long process and I hope it would be worth it.
