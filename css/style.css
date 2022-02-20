@@ -4,13 +4,17 @@ body {
 }
 
 .header {
-    font-size: 24px;
-    color: #F9FAF8;
     background-color: #1F2937;
-    padding: 2px 40px;
+    padding: 0 180px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
 }
 
 .header a {
@@ -29,11 +33,37 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
     background-color: #1F2937;
+    padding: 100px 180px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-part {
+    width: 500px;
 }
 
 .text-part .main {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    line-height: 50px;
+}
+
+.text-part .secondary {
+    margin: 8px 0;
+}
+
+.opening-section .image-part {
+    padding: 80px;
+    background-color: gray;
+}
+
+button {
+    font-weight: 700;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 8px 26px;
+    border: none;
+    border-radius: 8px;
 }
