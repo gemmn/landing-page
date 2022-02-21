@@ -29,11 +29,15 @@ ul {
     gap: 24px;
 }
 
+.header a:hover {
+    color: #F9FAF8;
+}
+
 .opening-section {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
-    padding: 150px 180px;
+    padding: 200px 180px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -58,13 +62,13 @@ ul {
 
 .opening-section .image-part {
     width: 500px;
-    background-color: rgb(120, 125, 130);
+    background-color: hsl(214, 7%, 46%);
     text-align: center;
     padding: 100px;
 }
 
 button {
-    max-width: 120px;
+    width: 120px;
     background-color: #3882F6;
     font-weight: 700;
     color: #F9FAF8;
@@ -73,13 +77,8 @@ button {
     border-radius: 8px;
 }
 
-.opening-section button:hover {
-    background-color: #F9FAF8;
-    color: #3882F6;
-}
-
 .info-section {
-    margin: 50px 250px;
+    margin: 60px 240px;
 }
 .info-section .heading {
     font-size: 36px;
@@ -91,10 +90,11 @@ button {
 
 .info-section .container {
     text-align: center;
-    color: gray;
+    color: #1F2937;;
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 140px;
 }
 
 .info-section .container .content :first-child {
@@ -112,4 +112,58 @@ button {
 .quote-section {
     background-color: #E5E7EB;
     font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+    padding: 140px 220px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column wrap;
+}
+
+.quote-section .author {
+    font-weight: 700;
+    font-style: normal;
+}
+
+.action-section {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 50px;
+    border-radius: 8px;
+    margin: 100px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.action-section .main {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.action-section button {
+    width: 120px;
+    background-color: #3882F6;
+    font-weight: 700;
+    color: #F9FAF8;
+    padding: 10px;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
